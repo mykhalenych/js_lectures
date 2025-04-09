@@ -1,0 +1,36 @@
+#test {
+    background: black;
+}
+
+.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.theme-toggle {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: red;
+}
+
+body > #test {
+    background: blue;
+}
+
+html > body > #test {
+    background: yellow;
+}
+
+button {
+    background: green !important;
+}
+
+button {
+    background: red !important;
+}
